@@ -39,7 +39,12 @@ a:focus {
   text-decoration: none;
 }
 
-.btn,
+.btn-danger{
+
+  text-align: center;
+}
+
+
 .btn:focus {
   outline: none !important;
   box-shadow: none;
@@ -638,7 +643,7 @@ a:focus {
 
 .list-group-item{
     background-color: #fffcf4;
-    
+
 }
 
 
@@ -662,15 +667,25 @@ a:focus {
   color: #fff;
 }
 
-.btn
-{
-      background-color: #254a93;
-}
 
 
 
 #contacts {
   text-align:center;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
 
 
